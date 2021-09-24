@@ -1,0 +1,112 @@
+@media all and (min-width: 1000px)
+{
+    html
+    {
+        background: url("images/bg-desktop.svg") no-repeat top left -60px;
+        background-size: 100% 100%;
+        background-color: hsl(257, 40%, 49%); 
+    }
+    body
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        height: auto;
+        min-height: 100vh;
+        width: auto;
+            
+        max-width: 1300px;
+        margin: 0 auto;
+        width: 90%;
+
+
+    }
+    main
+    {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    #content-pannel
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 70%;
+    }
+
+    #logo
+    {
+        width: 18%;
+        padding: 0;
+        padding-bottom: 5em;
+        padding-top: 2.5em;
+    }
+
+    #illustration
+    {
+        width: 55%;
+        align-self: flex-start;
+        padding: 0;
+        margin: 0;
+    }
+    #description
+    {   
+        padding: 0;
+        padding-left: 3em;
+        margin: 0;
+        width: 45%;    
+        align-self: flex-start; 
+    }
+    h1
+    {
+        font-size: 2.5em;
+        text-align: left;   
+        padding: 0.5em 0em;
+        margin: 0;
+        padding-top: 1.5em;
+        width: 90%;
+    }
+    p
+    {
+        
+        text-align: left;
+        font-size: 1.1em;
+        opacity: 0.8;
+        padding: 0em 0em;
+        margin: 0;
+        width: 95%;
+    }
+    #register-btn
+    {
+        padding: 0.7em;
+        border-radius: 2em;
+        font-size: 1.2em;
+        width: 30%;
+        margin: 1.3em 0;
+    }
+
+    footer
+    {
+        align-self: flex-end;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        margin-right: 0em;
+    }
+
+    #fb-icon, #twitter-icon , #insta-icon
+    {
+        width: 1.5em;
+        padding: 0.5em;
+        margin: 0em 0.5em;    
+    }
+    .attribution
+    {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
+}
